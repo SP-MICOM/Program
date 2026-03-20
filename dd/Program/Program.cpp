@@ -3,77 +3,35 @@
 using namespace std;
 
 template <typename T>
-class List
+class Vector
 {
 private:
-	struct Node
-	{
-		T data;
-		Node* next;
-	};
+	T* pointer;
 
-	int size;
-	Node* head;
+	int count;
+	int capacity;
 public:
-	List()
+	Vector()
 	{
-		size = 0;
-		head = nullptr;
+		pointer = nullptr;
+		count = 0;
+		capacity = 0;
 	}
 
-	void push_back(T data)
+	void resize(int newSize)
 	{
-		Node* newNode = new Node;
+		capacity = newSize;
 
-		newNode->data = data;
-		newNode->next = nullptr;
+		T* temporary[capacity] = new T;
 
-		if (head == nullptr)
+		for (int i = 0; i < capacity; i++)
 		{
-			head = newNode;
-
-			newNode->next = head;
-		}
-		else
-		{
-			newNode->next = head->next;
-
-			head->next = newNode;
-
-			head = newNode;
+			temporary[i] = nullptr;
 		}
 
-		size++;
 
-	}
 
-	void pop_back()
-	{
-		Node* deleteNode = head;
-		
-		if (size == 1)
-		{
-			deleteNode = nullptr;
-		}
-		else if (size == 0)
-		{
-			cout << "linked list is empty" << endl;
-		}
-		else
-		{
-			Node* currentNode = head;
-				
-			for (int i = 0; i <= size; i++)
-			{
-				currentNode = head->next;
-			}
 
-			head = currentNode;
-			
-			deleteNode = nullptr;
-		}
-
-		size--;
 
 	}
 
@@ -81,14 +39,7 @@ public:
 
 int main()
 {
-	List<int> list;
+	Vector<int> vector;
 
-	list.push_back(10);
-	list.push_back(20);
-	list.push_back(30);
-
-	list.pop_back();
-	list.pop_back();
-	list.pop_back();
-	list.pop_back();
+	return 0;
 }
