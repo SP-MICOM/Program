@@ -7,7 +7,19 @@
       "RelativeMoniker": "D:0:0:{F6CF30A1-22DE-4547-B59E-05F7BDC09F5D}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C5C630C8-9A4E-4E86-9E71-3355245044B7}|..\\Class2th (Double Linked List)\\Class2th (Double Linked List).vcxproj|C:\\Users\\Administrator\\Desktop\\Program\\dd\\Class2th (Double Linked List)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E0553AF0-0E2D-4F11-B7B3-276788035D83}|..\\Class5th (Stack)\\Class5th (Stack).vcxproj|C:\\Users\\Administrator\\Desktop\\Program\\dd\\Class5th (Stack)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9847E8E1-413C-4B1A-8EF5-75CAC7FBADA6}|..\\Class6th (Linear Queue)\\Class6th (Linear Queue).vcxproj|C:\\Users\\Administrator\\Desktop\\Program\\dd\\Class6th (Linear Queue)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF6020E-1394-4DCC-B5B6-2C3D3A10F1DF}|..\\Class1th\\Class1th.vcxproj|C:\\Users\\Administrator\\Desktop\\Program\\dd\\Class1th\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA2C40D-053B-4B9D-84FD-E7017DB03E3F}|..\\Class8th (Priority Queue)\\Class8th (Priority Queue).vcxproj|C:\\Users\\Administrator\\Desktop\\Program\\dd\\Class8th (Priority Queue)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B87FDC21-32AC-41B3-9AB0-9A6E1FA99F51}|..\\Class4th (Vector)\\Class4th (Vector).vcxproj|C:\\Users\\Administrator\\Desktop\\Program\\dd\\Class4th (Vector)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -20,7 +32,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,6 +41,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Program\\dd\\Class2th (Double Linked List)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class2th (Double Linked List)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Program\\dd\\Class2th (Double Linked List)\\Source.cpp",
+              "RelativeToolTip": "..\\Class2th (Double Linked List)\\Source.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-27T12:12:57.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Program\\dd\\Class6th (Linear Queue)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class6th (Linear Queue)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Program\\dd\\Class6th (Linear Queue)\\Source.cpp",
+              "RelativeToolTip": "..\\Class6th (Linear Queue)\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-27T12:11:38.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Program\\dd\\Class1th\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class1th\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Program\\dd\\Class1th\\Source.cpp",
+              "RelativeToolTip": "..\\Class1th\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-27T12:04:30.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Program\\dd\\Class8th (Priority Queue)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class8th (Priority Queue)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Program\\dd\\Class8th (Priority Queue)\\Source.cpp",
+              "RelativeToolTip": "..\\Class8th (Priority Queue)\\Source.cpp",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAwwJgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-27T11:44:24.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Program\\dd\\Class5th (Stack)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class5th (Stack)\\Source.cpp",
@@ -41,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Program\\dd\\Class4th (Vector)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class4th (Vector)\\Source.cpp",
@@ -60,7 +124,7 @@
               "RelativeDocumentMoniker": "Program.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Program\\dd\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AgIAABkAAAAAAAAAAAAUwC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-17T10:52:06.012Z",
               "EditorCaption": ""
