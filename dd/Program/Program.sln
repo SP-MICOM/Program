@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11620.152 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program", "Program.vcxproj", "{F6CF30A1-22DE-4547-B59E-05F7BDC09F5D}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class8th (Priority Queue)", "..\Class8th (Priority Queue)\Class8th (Priority Queue).vcxproj", "{0CA2C40D-053B-4B9D-84FD-E7017DB03E3F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class9th (Hash Table)", "..\Class9th (Hash Table)\Class9th (Hash Table).vcxproj", "{D824BFA8-834C-44D4-8A63-BE4B3DCE7D40}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class10th (Adjacency Matrix)", "..\Class10th (Adjacency Matrix)\Class10th (Adjacency Matrix).vcxproj", "{DB1C9426-083F-4F78-ABF7-E532AC9F322C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,18 @@ Global
 		{D824BFA8-834C-44D4-8A63-BE4B3DCE7D40}.Release|x64.Build.0 = Release|x64
 		{D824BFA8-834C-44D4-8A63-BE4B3DCE7D40}.Release|x86.ActiveCfg = Release|Win32
 		{D824BFA8-834C-44D4-8A63-BE4B3DCE7D40}.Release|x86.Build.0 = Release|Win32
+		{DB1C9426-083F-4F78-ABF7-E532AC9F322C}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{DB1C9426-083F-4F78-ABF7-E532AC9F322C}.Debug|Any CPU.Build.0 = Debug|x64
+		{DB1C9426-083F-4F78-ABF7-E532AC9F322C}.Debug|x64.ActiveCfg = Debug|x64
+		{DB1C9426-083F-4F78-ABF7-E532AC9F322C}.Debug|x64.Build.0 = Debug|x64
+		{DB1C9426-083F-4F78-ABF7-E532AC9F322C}.Debug|x86.ActiveCfg = Debug|Win32
+		{DB1C9426-083F-4F78-ABF7-E532AC9F322C}.Debug|x86.Build.0 = Debug|Win32
+		{DB1C9426-083F-4F78-ABF7-E532AC9F322C}.Release|Any CPU.ActiveCfg = Release|x64
+		{DB1C9426-083F-4F78-ABF7-E532AC9F322C}.Release|Any CPU.Build.0 = Release|x64
+		{DB1C9426-083F-4F78-ABF7-E532AC9F322C}.Release|x64.ActiveCfg = Release|x64
+		{DB1C9426-083F-4F78-ABF7-E532AC9F322C}.Release|x64.Build.0 = Release|x64
+		{DB1C9426-083F-4F78-ABF7-E532AC9F322C}.Release|x86.ActiveCfg = Release|Win32
+		{DB1C9426-083F-4F78-ABF7-E532AC9F322C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
