@@ -3,150 +3,88 @@
 using namespace std;
 
 template <typename T>
-class Graph
+class Set
 {
 private:
 	struct Node
 	{
 		T data;
-		Node* next;
 
-		Node(T data, Node* link = nullptr)
+		Node* left = nullptr;
+		Node* right = nullptr;
+
+		Node(T data)
 		{
 			this->data = data;
-			next = link;
 		}
+
 	};
 
-	int count;	  // 인접 리스트의 크기
-	int size;	  // 정점의 개수
-	int capacity; // 최대 용량
-
-	T* vertex;    // 정점의 집합
-	Node** list; // 인접 리스트
-
+	Node* root;
 public:
-	Graph()
+	Set()
 	{
-		size = 0;
-		count = 0;
-		capacity = 0;
-
-		list = nullptr;
-		vertex = nullptr;
+		root = nullptr;
 	}
 
-	void resize(int newSize)
+	void insert(T data)
 	{
-		capacity = newSize;
-
-		T* container = new T[capacity];
-
-		for (int i = 0; i < capacity; i++)
+		if (root == nullptr)
 		{
-			container[i] = NULL;
-		}
-
-		for (int i = 0; i < size; i++)
-		{
-			container[i] = vertex[i];
-		}
-
-		delete[] vertex;
-
-		vertex = container;
-	}
-
-	void resize()
-	{
-		Node** newList = new Node* [size];
-
-		for (int i = 0; i < size; i++)
-		{
-			newList[i] = nullptr;
-		}
-
-		for (int i = 0; i < count; i++)
-		{
-			newList[i] = list[i];
-		}
-
-		delete[] list;
-
-		list = newList;
-
-		count = size;
-	}
-
-	void push(T data)
-	{
-		if (capacity <= 0)
-		{
-			resize(1);
-		}
-		else if (size >= capacity)
-		{
-			resize(capacity * 2);
-		}
-
-		vertex[size++] = data;
-    }
-
-	void edge(int i, int j)
-	{
-		if (size <= 0)
-		{
-			cout << "adjacency list is empty" << endl;
-		}
-		else if (i >= size || j >= size)
-		{
-			cout << "index out of range" << endl;
+			root = new Node(data);
 		}
 		else
 		{
-			if (list == nullptr)
-			{
-				list = new Node * [size];
+			Node* currentNode = root;
 
-				for (int i = 0; i < size; i++)
+			while (true)
+			{
+				if (data < currentNode->data)
 				{
-					list[i] = nullptr;
+					if (currentNode->left == nullptr)
+					{
+						currentNode->left = new Node(data);
+
+						break;
+					}
+					else
+					{
+						currentNode = currentNode->left;
+					}
 				}
+				else if (data > currentNode->data)
+				{
+					if (currentNode->right == nullptr)
+					{
+						currentNode->right = new Node(data);
 
-				count = size;
+						break;
+					}
+					else
+					{
+						currentNode = currentNode->right;
+					}
+				}
+				else
+				{
+					break;
+				}
 			}
-			else if (count < size)
-			{
-				resize();
-			}
-
-			list[i] = new Node(vertex[j], list[i]);
-			list[j] = new Node(vertex[i], list[j]);
 		}
+		
+		
 	}
 
-	void render()
-	{
-		for (int i = 0; i < size; i++)
-		{
-			cout << list[i] << " -> " << list[i] << endl;
-		}
-	}
 };
 
 int main()
 {
-	Graph<char> graph;
+	Set<int> set;
 
-	graph.push('A');
-	graph.push('B');
-	graph.push('C');
-	graph.push('D');
-
-	graph.edge(2, 2);
-	graph.edge(3, 3);
-
-	graph.render();
+	set.insert(10);
+	set.insert(15);
+	set.insert(6);
+	set.insert(12);
 
 	return 0;
 }
